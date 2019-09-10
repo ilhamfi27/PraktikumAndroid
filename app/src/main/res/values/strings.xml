@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Praktikum Satu</string>
+    <string name="tvName">Nama</string>
+    <string name="tvTempatLahir">Tempat Lahir</string>
+    <string name="tvTanggalLahir">Tanggal Lahir</string>
+    <string name="tvJenisKelamin">Jenis Kelamin</string>
+    <string name="tvYoutuber">Youtuber Favorit</string>
+    <string name="tvTimBola">Tim Bola Favorit</string>
+    <string-array name="jenisKelaminData">
+        <item>Laki - Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>
