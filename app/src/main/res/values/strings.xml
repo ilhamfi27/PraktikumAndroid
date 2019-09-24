@@ -10,4 +10,6 @@
         <item>Laki - Laki</item>
         <item>Perempuan</item>
     </string-array>
+    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tincidunt magna. Sed et rhoncus sem, eget feugiat lorem. Donec mollis tortor at elementum malesuada. Phasellus hendrerit in orci in faucibus. Morbi vitae auctor quam. Duis vitae rutrum purus. Nunc ornare pretium ante, quis pharetra lorem egestas a. In condimentum malesuada consequat. Duis a magna justo. Vestibulum turpis dui, tristique eu fringilla sed, luctus et nisl. Nunc nunc purus, tempor eget lectus ultricies, lacinia viverra tortor.</string>
+    <string name="goalButton">+1 Goal!</string>
 </resources>
