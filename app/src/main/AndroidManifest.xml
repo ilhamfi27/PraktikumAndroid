@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<!--        <activity android:name=".ScoreBoard"></activity>-->
+<!--        <activity android:name=".PreAssessment"></activity>-->
+        <!-- <activity android:name=".ScoreBoard"></activity> -->
         <!-- <activity android:name=".TravellingActivity"></activity> -->
         <activity
             android:name=".BiodataActivity"
             android:parentActivityName=".MainActivity" />
-        <activity android:name=".ScoreBoard">
+        <activity android:name=".PreAssessment">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
