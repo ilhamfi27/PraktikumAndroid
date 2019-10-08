@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<!--        <activity android:name=".PreAssessment"></activity>-->
+        <activity android:name=".Quiz3"></activity>
+        <activity android:name=".Quiz2" /> <!-- <activity android:name=".MultiLangual"></activity> -->
+        <!-- <activity android:name=".PreAssessment"></activity> -->
         <!-- <activity android:name=".ScoreBoard"></activity> -->
         <!-- <activity android:name=".TravellingActivity"></activity> -->
-        <activity
-            android:name=".BiodataActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".PreAssessment">
+        <!-- <activity -->
+        <!-- android:name=".BiodataActivity" -->
+        <!-- android:parentActivityName=".MainActivity" /> -->
+        <activity android:name=".Quiz1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

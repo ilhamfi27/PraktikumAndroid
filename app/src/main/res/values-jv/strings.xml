@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praktikum Satu</string>
+    <string name="word1">Siji</string>
+    <string name="word2">Loro</string>
+    <string name="word3">Telu</string>
+    <string name="language">Java</string>
+    <string name="selectLanguage">Milih Boso</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praktikum Satu</string>
+    <string name="word1">One</string>
+    <string name="word2">Two</string>
+    <string name="word3">Three</string>
+    <string name="language">English</string>
+    <string name="selectLanguage">Select Language</string>
+</resources>

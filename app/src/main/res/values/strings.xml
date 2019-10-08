@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">Praktikum Satu</string>
-    <string name="tvName">Nama</string>
-    <string name="tvTempatLahir">Tempat Lahir</string>
-    <string name="tvTanggalLahir">Tanggal Lahir</string>
-    <string name="tvJenisKelamin">Jenis Kelamin</string>
-    <string name="tvYoutuber">Youtuber Favorit</string>
-    <string name="tvTimBola">Tim Bola Favorit</string>
+    <string name="tvName" translatable="false">Nama</string>
+    <string name="tvTempatLahir" translatable="false">Tempat Lahir</string>
+    <string name="tvTanggalLahir" translatable="false">Tanggal Lahir</string>
+    <string name="tvJenisKelamin" translatable="false">Jenis Kelamin</string>
+    <string name="tvYoutuber" translatable="false">Youtuber Favorit</string>
+    <string name="tvTimBola" translatable="false">Tim Bola Favorit</string>
     <string-array name="jenisKelaminData">
         <item>Laki - Laki</item>
         <item>Perempuan</item>
     </string-array>
-    <string name="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tincidunt magna. Sed et rhoncus sem, eget feugiat lorem. Donec mollis tortor at elementum malesuada. Phasellus hendrerit in orci in faucibus. Morbi vitae auctor quam. Duis vitae rutrum purus. </string>
-    <string name="goalButton">+1 Goal!</string>
+    <string name="dummy_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at tincidunt magna. Sed et rhoncus sem, eget feugiat lorem. Donec mollis tortor at elementum malesuada. Phasellus hendrerit in orci in faucibus. Morbi vitae auctor quam. Duis vitae rutrum purus. </string>
+    <string name="goalButton" translatable="false">+1 Goal!</string>
 
     <string-array name="country">
         <item>Indonesia</item>
@@ -19,4 +19,34 @@
         <item>Australia</item>
         <item>Japan</item>
     </string-array>
+
+    <string name="selectLanguage">Select Language</string>
+    <string-array name="languages">
+        <item>@string/selectLanguage</item>
+        <item>English</item>
+        <item>Spain</item>
+        <item>Indonesia</item>
+        <item>Sundanese</item>
+        <item>Javanese</item>
+    </string-array>
+
+    <string name="language">English</string>
+    <string name="word1">One</string>
+    <string name="word2">Two</string>
+    <string name="word3">Three</string>
+    <string name="soal_quiz_1" translatable="false">Berapakah 5 + 5?</string>
+    <string name="jawaban1_quiz_1" translatable="false">5</string>
+    <string name="jawaban2_quiz_1" translatable="false">10</string>
+    <string name="jawaban3_quiz_1" translatable="false">15</string>
+    <string name="jawaban4_quiz_1" translatable="false">20</string>
+    <string name="soal_quiz_2" translatable="false">Berapakah 100 x 100?</string>
+    <string name="jawaban1_quiz_2" translatable="false">200</string>
+    <string name="jawaban2_quiz_2" translatable="false">1000</string>
+    <string name="jawaban3_quiz_2" translatable="false">10000</string>
+    <string name="jawaban4_quiz_2" translatable="false">20000</string>
+    <string name="soal_quiz_3" translatable="false">Berapakah 100 : 5?</string>
+    <string name="jawaban1_quiz_3" translatable="false">2</string>
+    <string name="jawaban2_quiz_3" translatable="false">10</string>
+    <string name="jawaban3_quiz_3" translatable="false">15</string>
+    <string name="jawaban4_quiz_3" translatable="false">20</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Praktikum Satu</string>
+    <string name="word1">Hiji</string>
+    <string name="word2">Dua</string>
+    <string name="word3">Tilu</string>
+    <string name="language">Sundanese</string>
+    <string name="selectLanguage">Pilih Basa</string>
+</resources>
