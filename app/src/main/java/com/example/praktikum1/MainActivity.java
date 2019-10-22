@@ -1,14 +1,21 @@
 package com.example.praktikum1;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -64,5 +71,36 @@ public class MainActivity extends AppCompatActivity {
         final Intent i = new Intent(this, BiodataActivity.class);
         i.putExtras(extras);
         startActivity(i);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.new_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.menu1:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Menu 1 Dipilih",
+                        Toast.LENGTH_SHORT
+                ).show();
+                return true;
+
+            case R.id.menu2:
+                Toast.makeText(
+                        getApplicationContext(),
+                        "Menu 2 Dipilih",
+                        Toast.LENGTH_SHORT
+                ).show();
+                return true;
+
+            default:
+                return true;
+        }
     }
 }

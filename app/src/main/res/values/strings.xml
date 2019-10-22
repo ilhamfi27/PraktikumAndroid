@@ -49,4 +49,7 @@
     <string name="jawaban2_quiz_3" translatable="false">10</string>
     <string name="jawaban3_quiz_3" translatable="false">15</string>
     <string name="jawaban4_quiz_3" translatable="false">20</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
