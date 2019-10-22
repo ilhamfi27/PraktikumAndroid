@@ -2,8 +2,7 @@ package com.example.praktikum1;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
+import androidx.core.view.MenuItemCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,18 +13,47 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
+    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        fillSpinner();
-        buttonSubmitOnClick();
+//        fillSpinner();
+//        buttonSubmitOnClick();
+        fillListData();
+    }
+
+
+    private void fillListData(){
+        String[] values = {
+                "Azeus",
+                "Samsong",
+                "Apel",
+                "Sony",
+                "Siaomy",
+                "Opo",
+                "Fifo",
+                "Realme",
+                "Myto"
+        };
+
+        adapter = new ArrayAdapter<String>(
+                this,
+                android.R.layout.simple_list_item_1,
+                android.R.id.text1,
+                values
+        );
+        ListView listView = findViewById(R.id.simple_list);
+        listView.setAdapter(adapter);
     }
 
     private void fillSpinner(){
@@ -77,7 +105,27 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.new_menu, menu);
+        startSearchEvent(menu);
         return true;
+    }
+
+    private void startSearchEvent(Menu menu){
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView(
+                menu.findItem(R.id.search));
+        searchView.setQueryHint("Masukin Mas");
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                MainActivity.this.adapter.getFilter().filter(s);
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                MainActivity.this.adapter.getFilter().filter(s);
+                return false;
+            }
+        });
     }
 
     @Override

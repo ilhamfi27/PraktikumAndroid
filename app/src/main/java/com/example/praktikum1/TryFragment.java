@@ -52,11 +52,11 @@ public class TryFragment extends AppCompatActivity implements FragmentOne.OnFrag
             default:
                 break;
         }
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.frame_one, fragment);
-        fragmentTransaction.addToBackStack(null);
-        fragmentTransaction.commit();
+//        FragmentManager fragmentManager = getSupportFragmentManager();
+//        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+//        fragmentTransaction.replace(R.id.frame_one, fragment);
+//        fragmentTransaction.addToBackStack(null);
+//        fragmentTransaction.commit();
         return true;
     }
 

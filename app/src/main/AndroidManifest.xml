@@ -19,7 +19,7 @@
         <!-- <activity -->
         <!-- android:name=".BiodataActivity" -->
         <!-- android:parentActivityName=".MainActivity" /> -->
-        <activity android:name=".TryFragment">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
